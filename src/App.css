@@ -1,1 +1,86 @@
 /* Add custom styling here */
+
+.app {
+    text-align: center;
+}
+
+.app-header {
+    background-color: #282c34;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+#p-1 {
+    margin-bottom: 0;
+}
+
+#p-2 {
+    margin-top: 0;
+}
+
+.app-container {
+    min-height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-scoreboard {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 50%;
+}
+
+.app-wrapper {
+    width: 75vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.congratulations {
+    background-color: lightgreen;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.app-number {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: azure;
+}
+
+/*.app-square {
+    width: 180px;
+    height: 180px;
+}*/
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+.btn:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
